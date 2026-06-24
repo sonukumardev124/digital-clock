@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,20 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    <main>
-        <p id="clock">00:00:00</p>
-    </main>
+    <div class="clock-container">
+        <div class="hour-container clock-digit">00</div>
+        <h class="digit-sep">:</h>
+        <div class="minute-container clock-digit">00</div>
+        <h class="digit-sep">:</h>
+        <div id="second-dialer" class="second-container clock-digit">00</div>
+    </div>
+    <div class="button-container">
+        <button class="start-btn">Start</button>
+        <button class="pause-btn">Pause</button>
+        <button class="reset-btn">Reset</button>
+    </div>
 </body>
+
 </html>
