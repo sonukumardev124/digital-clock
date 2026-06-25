@@ -42,7 +42,7 @@ function resetTimer() {
 
     timer = 50;
     secondDialer.textContent = String(timer).padStart(2, '0');
-}
+}52
 
 startBtn.addEventListener("click", startTimer);
 pauseBtn.addEventListener("click", pauseTimer);
